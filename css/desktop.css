@@ -1,0 +1,104 @@
+.trends {
+  margin-top: 59px;
+}
+
+.blog, .shop, .footer {
+  max-width: 1200px;
+  margin-top: 63px;
+}
+
+.banner {
+  min-height: 449px;
+  background-image: url("../img/banner-bg.jpg");
+}
+
+.banner-content {
+    padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.logo {
+  width: 180px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.page-navigation {
+  top: 40px;
+  right: 15px;
+}
+
+.toggle-menu {
+  display: none;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-right: 36px;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.page-title {
+  max-width: 691px;
+  margin: 100px auto 0;
+  font-size: 45px;
+  line-height: 75px;
+}
+
+.region-title {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.trend {
+  width: calc(25% - 4px); 
+  margin-top: 25px;
+}
+
+.post {
+  width: 781px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 57px;
+}
+
+.post:last-child {
+  margin-bottom: 0;
+}
+
+.post::after {
+  display: none;
+}
+
+.post>img {
+  width: 383px;
+}
+.post-content {
+  width: 367px;
+}
+
+.trend-title {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.post-title, .product-title {
+  font-size: 20px;
+}
+
+.sidebar-title {
+  font-size: 14px;
+}
+.product {
+    margin-bottom: 0;
+}
+
+.trends-list, .shop-list {
+  margin-top: 30px;
+}
