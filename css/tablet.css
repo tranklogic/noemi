@@ -2,18 +2,20 @@
   margin-top: 64px;
 }
 
-.blog, .shop, .footer {
+.blog,
+.shop,
+.footer {
   max-width: 768px;
   margin-top: 50px;
 }
- 
+
 .banner {
   min-height: 400px;
   background-image: url("../img/banner-bg-tablet.jpg");
 }
 
 .banner-content {
-    padding-top: 50px;
+  padding-top: 50px;
   padding-bottom: 43px;
 }
 
@@ -42,19 +44,19 @@
 
 .trend {
   width: calc(50% - 4px);
-  margin-top: 25px;  
+  margin-top: 25px;
 }
 
-.trends-list, .shop-list {
+.trends-list,
+.shop-list {
   margin-top: 30px;
 }
 .sidebar-title {
   font-size: 14px;
 }
-/*
+
 @media (orientation: landscape) {
   .trend {
-    width: calc(25% - 4px); 
+    width: calc(25% - 4px);
   }
 }
-*/

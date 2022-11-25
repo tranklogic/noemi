@@ -2,7 +2,9 @@
   margin-top: 59px;
 }
 
-.blog, .shop, .footer {
+.blog,
+.shop,
+.footer {
   max-width: 1200px;
   margin-top: 63px;
 }
@@ -13,7 +15,7 @@
 }
 
 .banner-content {
-    padding-top: 28px;
+  padding-top: 28px;
   padding-bottom: 28px;
 }
 
@@ -56,7 +58,7 @@
 }
 
 .trend {
-  width: calc(25% - 4px); 
+  width: calc(25% - 4px);
   margin-top: 25px;
 }
 
@@ -76,7 +78,7 @@
   display: none;
 }
 
-.post>img {
+.post > img {
   width: 383px;
 }
 .post-content {
@@ -88,7 +90,8 @@
   line-height: 36px;
 }
 
-.post-title, .product-title {
+.post-title,
+.product-title {
   font-size: 20px;
 }
 
@@ -96,9 +99,10 @@
   font-size: 14px;
 }
 .product {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-.trends-list, .shop-list {
+.trends-list,
+.shop-list {
   margin-top: 30px;
 }
