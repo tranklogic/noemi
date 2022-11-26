@@ -395,12 +395,13 @@ menuButton.setAttribute('aria-pressed', true);
 
   </div>
 
-  <dialog class="feedback" id="feedback">
-    <button class="close-dialog" value="close" onclick="window.feedback.close();">
+  <dialog class="dialog feedback" id="feedback">
+    <button class="dialog-close" value="close" onclick="window.feedback.close();">
       <span class="visually-hidden">Закрыть</span>
     </button>
+    <div class="dialog-content">
 
-    <h3 class="feedback-title">ваш фидбек</h3>
+    <h3 class="dialog-title">ваш фидбек</h3>
     <form action="" method="dialog" name="feetback" class="feedback-form">
       <label for="user-activity" class="feedback-label">Как часто вы заходите на сайт?</label>
       <select class="activity-select" name="user-activity" id="user-activity" autofocus required>
@@ -429,6 +430,7 @@ menuButton.setAttribute('aria-pressed', true);
 
       <button type="submit" class="feedback-submit" value="feedback" onclick="window.feedback.close();">Отправить</button>
     </form>
+    </div>
   </dialog>
 
 </body>

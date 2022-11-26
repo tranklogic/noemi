@@ -20,7 +20,7 @@
   padding: 0;
 }
 
-body {
+html, body {
   font-family: "Open Sans", sans-serif;
   color: #000000;
   background-color: #ffffff;
