@@ -1,3 +1,4 @@
+@media (min-width:1200px) {
 .trends {
   margin-top: 59px;
 }
@@ -105,4 +106,6 @@
 .trends-list,
 .shop-list {
   margin-top: 30px;
+}
+
 }
