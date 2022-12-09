@@ -9,6 +9,17 @@
 <link rel="stylesheet" href="./css/tablet.css" >
 <link rel="stylesheet" href="./css/desktop.css" >
 <script>
+//landscape mode
+if (location.search.indexOf('landscape') !== -1) {
+	let s = document.createElement('link');
+	s.rel= 'stylesheet';
+	s.href = 'css/landscape-mode.css';
+	s.onload = function() {
+		console.log('landscape mode enabled')
+	};
+	(document.head || document.documentElement).appendChild(s);
+}
+
 // menu test
 window.addEventListener('DOMContentLoaded', ()=>{
 const menuButton = document.querySelector('.toggle-menu');

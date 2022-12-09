@@ -63,12 +63,14 @@
   margin-top: 25px;
 }
 
+.posts {
+  width: 770px;
+}
 .post {
-  width: 781px;
+  max-width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 57px;
 }
 
 .post:last-child {

@@ -1,7 +1,7 @@
 .dialog {
   margin: 0 auto;
   padding: 40px 0;
-  background-color: #000000;
+  background-color: transparent;
   font-size: 13px;
 }
 
@@ -14,8 +14,8 @@
   position: absolute;
   top: 5px;
   right: 5px;
-  width: 30px;
-  height: 30px;
+  width: 16px;
+  height: 16px;
   border: none;
   outline: none;
   background-color: transparent;
@@ -29,6 +29,7 @@
 .dialog-title {
   margin-top: 15px;
   font-size: 16px;
+  text-align: center;
 }
 
 .dialog-content {
@@ -110,11 +111,11 @@
 .feedback-message {
   width: 100%;
   height: 45px;
-  max-height: 150px;
   margin-top: 30px;
   padding: 15px;
   border: none;
   outline: none;
+  resize: none;
   font-family: inherit;
   font-size: inherit;
   color: rgba(0, 0, 0, 0.5);

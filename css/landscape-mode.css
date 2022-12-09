@@ -1,0 +1,15 @@
+@media (max-width: 640px) and (orientation: landscape) {
+  .trends-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .trend {
+    width: calc(50% - 4px);
+  }
+}
+
+@media (min-width:641px) and (max-width:1199px) and (orientation: landscape) {
+  .trend {
+    width: calc(25% - 4px);
+  }
+}

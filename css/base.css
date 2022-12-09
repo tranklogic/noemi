@@ -198,7 +198,6 @@ img {
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  max-width: 450px;
   margin-top: 25px;
   padding-top: 90px;
   padding-bottom: 15px;
@@ -275,7 +274,6 @@ img {
 
 .post {
   max-width: 383px;
-/* margin-bottom: 35px; */
 }
 
 .post::after {
@@ -289,6 +287,7 @@ img {
 
 .post > img {
   width: 100%;
+  margin-bottom: 16px;
 }
 
 .post-title {
@@ -345,7 +344,7 @@ img {
   width: 100%;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding-top: 5px;
   padding-bottom: 15px;
 }
@@ -436,9 +435,10 @@ img {
 }
 
 .sidebar-tag-link {
+  display: block;
   margin-right: 4px;
   margin-bottom: 4px;
-  padding: 6px 15px;
+  padding: 6px 14px;
   border: 3px solid #eeeeee;
   line-height: 13px;
   font-size: 12px;
@@ -632,16 +632,6 @@ a[data-social="twitter"] {
   overflow: hidden;
 }
 
-@media (max-width: 640px) and (orientation: landscape) {
-  .trends-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .trend {
-    width: calc(50% - 4px);
-  }
-}
-
 @media (min-width: 641px) {
   .trends-list,
   .shop-list {
@@ -661,3 +651,24 @@ a[data-social="twitter"] {
   }
 }
 
+
+/*
+
+
+@media (max-width: 640px) and (orientation: landscape) {
+  .trends-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .trend {
+    width: calc(50% - 4px);
+  }
+}
+
+@media (min-width:641px) and (max-width:1199px) and (orientation: landscape) {
+  .trend {
+    width: calc(25% - 4px);
+  }
+}
+
+*/
