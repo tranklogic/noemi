@@ -43,17 +43,12 @@
   line-height: 1;
 }
 
-.trend {
-  width: calc(50% - 4px);
-  margin-top: 25px;
-}
-
-.trends-list,
-.shop-list {
-  margin-top: 30px;
-}
 .sidebar-title {
   font-size: 14px;
+}
+
+.trend {
+  width: calc(50% - 4px);
 }
 
 }

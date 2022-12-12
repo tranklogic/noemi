@@ -58,7 +58,8 @@ img {
 }
 
 .blog,
-.shop {
+.shop,
+.footer {
   max-width: 360px;
   margin-left: auto;
   margin-right: auto;
@@ -637,6 +638,7 @@ a[data-social="twitter"] {
   .shop-list {
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 30px;
   }
   .blog {
     display: flex;
